@@ -1,0 +1,2 @@
+@interface MyLibPublicClass : NSObject
+@end

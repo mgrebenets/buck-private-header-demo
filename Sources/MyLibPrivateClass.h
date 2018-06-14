@@ -1,0 +1,2 @@
+@interface MyLibPrivateClass : NSObject
+@end

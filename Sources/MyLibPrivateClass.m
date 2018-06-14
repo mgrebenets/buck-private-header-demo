@@ -1,0 +1,2 @@
+@implementation MyLibPrivateClass
+@end
