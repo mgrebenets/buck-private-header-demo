@@ -3,13 +3,15 @@
 apple_library(
     name='MyLib',
     module_name='MyLib',
+    header_path_prefix='MyLib',
     visibility=['PUBLIC'],
     headers=glob([
         'Sources/**/*.h',
     ]),
     exported_headers=glob([
-        'Sources/MyLib.h',
-        'Sources/MyLibPublicClass.h'
+        'Sources/**/*.h',
+    ], exclude=[
+        'Sources/Nested/MyLibPrivateClass.h',
     ]),
     srcs=glob([
         'Sources/**/*.m',
