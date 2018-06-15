@@ -28,7 +28,7 @@ apple_test(
     deps=[
         ':MyLib',
     ],
-    info_plist='Sources/Info.plist',
+    info_plist='Tests/Info.plist',
     info_plist_substitutions={
         'PRODUCT_BUNDLE_IDENTIFIER': 'org.test.' + 'MyLibTests',
     },
