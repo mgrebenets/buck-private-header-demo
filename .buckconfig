@@ -19,8 +19,8 @@ use_swift_delegate = false
 ; Generated projects would not build unless use_header_maps_in_xcode is set to false.
 use_header_maps_in_xcode = false
 ; TODO: Figure out how to use zipped xctool in the repo or how to fetch from artifactory.
-xctool_path = tools/xctool/bin/xctool
-; Must launch simulator before running tests, e.g. with 'xcrun instruments -w "iPhone 6 (9.3)" 2>/dev/null'
+; xctool_path = tools/xctool/bin/xctool
+; Must launch simulator before running tests, e.g. with 'xcrun instruments -w "iPhone 6 (9.3)" 2>/dev/null || true'
 xctool_default_destination_specifier = platform=iOS Simulator,OS=11.2,name=iPhone X
 ; xctool_default_destination_specifier = platform=iOS Simulator,OS=9.3,name=iPhone 6
 ; xctool_default_destination_specifier = platform=iOS Simulator,OS=11.2,name=iPhone 7

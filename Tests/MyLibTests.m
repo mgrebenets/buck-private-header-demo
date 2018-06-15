@@ -1,6 +1,6 @@
 @import XCTest;
 
-#import "MyLibPrivate.h"
+#import "MyLibPrivateClass.h"
 
 @interface MyLibTests : XCTestCase
 @end
