@@ -4,6 +4,8 @@ apple_library(
     name='MyLib',
     module_name='MyLib',
     header_path_prefix='MyLib',
+    # If you comment this line, the build will pass...
+    modular=True,
     visibility=['PUBLIC'],
     headers=glob([
         'Sources/**/*.h',
